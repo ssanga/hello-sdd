@@ -2,11 +2,11 @@
 
 ## Proyecto
 CLI en Python para registrar hábitos de estudio y calcular rachas de días
-consecutivos. Núcleo puro (`habits/core.py`) + capa CLI (`habits/cli.py`).
+consecutivos. Núcleo puro (paquete `habits/core/`) + capa CLI (`habits/cli.py`).
 Persistencia en JSON local (`habits/storage.py`).
 
 ## Comandos
-- Ejecutar: `python -m habits <comando>`
+- Ejecutar: `python -m habits <comando>` (`add <nombre>`, `done <nombre>`, `list`)
 - Tests: `pytest -q`
 
 ## Estilo
